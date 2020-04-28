@@ -31,9 +31,10 @@ body {
 }
 
 .header__title {
-    margin: 0 0 20px 0;
+    margin: 0 0 41px 0;
     font-size: 60px;
     font-weight: 400;
+    line-height: 43px;
 }
 
 .header__list {
@@ -87,14 +88,15 @@ body {
 }
 
 .about_product__title {
-    margin: 0 0 30px 0;
+    margin: 0 0 37px 0;
     font-size: 30px;
     font-weight: 400;
+    line-height: 8px;
 }
 
 .about_product__text {
     width: 649px;
-    margin: 0 0 20px 0;
+    margin: 0 0 11px 0;
     line-height: 24px;
     font-weight: 400;
     color: #333333;
@@ -127,10 +129,10 @@ body {
 
 .dignity__title {
     font-size: 30px;
-    line-height: 36px;
+    line-height: 9px;
     font-weight: 400;
     text-align: center;
-    margin: 0 0 29px 0;
+    margin: 0 0 41px 0;
 }
 
 .dignity__list {
@@ -142,7 +144,7 @@ body {
 }
 
 .dignity__list-item {
-    margin: 0 0 35px 0;
+    margin: 0 0 26px 0;
     position: relative;
     width: 526px;
 }
@@ -172,10 +174,10 @@ body {
 
 .screenshots__title {
     font-size: 30px;
-    line-height: 36px;
+    line-height: 12px;
     font-weight: 400;
     text-align: center;
-    margin: 0 0 34px 0;
+    margin: 0 0 38px 0;
 }
 
 .screenshots__content {
@@ -190,7 +192,7 @@ body {
 }
 
 .screenshots__content-figure {
-    width: 49.8%;
+    width: 50%;
     margin: 0 0 30px 0;
     float: left;
 }
@@ -217,12 +219,14 @@ body {
 
 .screenshots__content-figcap {
     float: right;
+    margin: 0 14px 0 0;
 }
 
 .screenshots__content-title {
     font-size: 24px;
     font-weight: 400;
-    margin: 0 0 15px 0;
+    margin: 0 0 13px 0;
+    line-height: 19px;
 }
 
 .screenshots__content-text {
@@ -230,4 +234,163 @@ body {
     color: #333333;
     line-height: 24px;
     margin: 0;
+}
+
+.reviews {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.reviews__title {
+    margin: 0 0 35px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.reviews__wpr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reviews__wpr-item {
+    width: 48.5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 24px 0;
+}
+
+.reviews__wpr-item:nth-child(n+3) {
+    margin: 0;
+}
+
+.reviews__wpr-img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    background-color: #445161;
+    border-radius: 50%;
+    align-self: flex-start;
+}
+
+.reviews__wpr-text {
+    background-color: #ebebeb;
+    width: 431px;
+    border-radius: 10px;
+    padding: 16px;
+    align-self: flex-start;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+    margin: 0;
+    position: relative;
+}
+
+.reviews__wpr-text:before {
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+
+.reviews__wpr-autor {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #989898;
+    margin: 6px 0 0 0;
+    font-style: normal;
+}
+
+.buy {
+    width: 100%;
+    background-color: #fff;
+}
+
+.buy__title {
+    margin: 0 0 37px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.buy__wpr {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.buy__wpr-item {
+    width: 300px;
+    background-color: #445162;
+    border-radius: 5px;
+    color: #fff;
+    padding-bottom: 17px;
+    align-self: flex-end;
+    border: 3px solid #445162;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buy__wpr-title {
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.buy__wpr-price {
+    display: block;
+    background-color: #fff;
+    color: #445162;
+    font-size: 40px;
+    line-height: 71px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 14px 0;
+}
+
+.buy__wpr-parametrs {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0 0 16px -8px;
+}
+
+.buy__wpr-button {
+    display: block;
+    background-color: #fff;
+    width: 260px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #445161;
+    text-transform: uppercase;
+}
+
+.buy__wpr-button:hover {
+    background-color: #ebebeb;
+    color: green;
+}
+
+.buy__wpr-button:active {
+    background-color: #f5f5f5;
+    color: red;
 }
