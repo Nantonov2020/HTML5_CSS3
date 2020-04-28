@@ -100,7 +100,11 @@ body {
     color: #333333;
 }
 
-.about_product__img {
+.about_product__text:last-child {
+    margin: 0;
+}
+
+.about_product__video {
     display: block;
     width: 430px;
     height: 245px;
@@ -191,7 +195,7 @@ body {
     float: left;
 }
 
-.screenshots__content-figure:nth-child(n+3){
+.screenshots__content-figure:nth-child(n+3) {
     margin: 0;
 }
 
